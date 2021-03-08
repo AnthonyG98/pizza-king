@@ -34,11 +34,19 @@
     .logo-img{
         width: 150px;
     }
+    .our-menu {
+      width: 50%;
+      font-size: 6vw;
+    }
+    .desktop-nav-container {
+      display: none;
+    }
     .fa-pizza-slice{
       position: relative;
       top: 5%;
       cursor: pointer;
       position: fixed;
+      display: block;
       background-color: rgb(255, 220, 197);
       color: rgb(109, 0, 0);
       font-size: 3rem;

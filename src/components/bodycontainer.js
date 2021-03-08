@@ -1,5 +1,6 @@
 import React from "react"
 import bodyImgOne from "../images/pizza-img-three.jpg"
+import {Link} from "react-scroll"
 function BodyContainer(){
     function bodyAnimation(){
         const bodyTop = document.querySelector(".body-container");
@@ -31,6 +32,53 @@ function BodyContainer(){
                     </p>
                 </div>
             </div>
+            <Link
+                        className="our-menu"
+                            to="menu"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >Menu</Link>           
+            <div className="desktop-nav-container">
+                <Link
+                            activeClass="active-desk"
+                            className="nav-desk"
+                            to="home"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+
+                        >Home</Link>                    
+                        <Link
+                        activeClass="active-desk"
+                        className="nav-desk"
+                            to="specials"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >Specials</Link>
+                        <Link
+                        activeClass="active-desk"
+                        className="nav-desk"
+                            to="menu"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >Menu</Link>
+                        <Link
+                        activeClass="active-desk"
+                        className="nav-desk"
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >Contact</Link>
+                </div>
         </div>
     )
 }

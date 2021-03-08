@@ -69,7 +69,7 @@ class ContactPg extends React.Component{
         const screenPosition = window.innerHeight;
         let bodyHeight = contactTop.getBoundingClientRect().top
         if(screenPosition > bodyHeight + 200){
-            contactTop.style.left ="5%";
+            contactTop.style.left ="15%";
         }
     }
     render(){

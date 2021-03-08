@@ -8,7 +8,7 @@ function MainHeader(){
             <img className="main-header-img" src={mainImg} alt="of Pizza King restaurant"></img>
             <div className="main-header-text">
                 <img className="logo-img" src={logo} alt="pizza king logo"></img>
-            </div>           
+            </div>
         </div>
     )
 }
